@@ -1,0 +1,405 @@
+/*This is the style file*/
+body{
+  overflow-x: hidden;
+  background-color: #dacaca;
+}
+h3{
+    font-family: 'Times New Roman';
+    width: 200px;
+    font-weight: bold;
+}
+.statement h3{
+  font-style: italic ;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  padding-left: 25%;
+  
+}
+.statement p{
+  font-family: cursive;
+  font-style: italic;
+  font-size: 16px;
+  padding-left: 25%;
+}
+.slideshow{
+
+    display: flex;  /* Use Flexbox to display items in a row */
+    justify-content: center;  /* Center the items horizontally */
+    gap: 20px;  /* Add space between the items */
+    padding: 20px;  /* Add some padding to the section */
+    margin-top: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    position: relative;
+    max-width: 100%;
+}
+.statement{
+  display: flex;  /* Use Flexbox to display items in a row */
+  justify-content: center;  /* Center the items horizontally */
+  gap: 0px;  /* Add space between the statement items */
+  margin-bottom: 50px;
+}
+.Products{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Create 4 equal columns */
+  gap: 20px; /* Space between images */
+  padding: 20px; /* Padding around the gallery */
+}
+.Product img{
+  width: 300px; /* Ensure the image takes up full width */
+  height: 200px; /* Fixed height to make images uniform */
+  object-fit: cover; /* Maintain aspect ratio and fill the container */
+  border-radius: 8px; /* Optional: Rounded corners for images */
+}
+
+.Product{
+  display: flex;
+  flex-direction: column;  /* Align image and description vertically */
+  justify-content: flex-start;
+  align-items: center;  /* Center images and descriptions */
+  text-align: center; /* Center the text */
+  background-color: #f0f0f0; /* Optional: Background color for better visibility */
+  border-radius: 8px;
+  padding: 10px;
+  margin-left: 0px;
+}
+.Slogan{
+  background-color: rgb(255, 42, 0);
+  width: 450px;
+  height: 200px;
+}
+.Mission{
+  background-color:rgb(8, 211, 52) ;
+  width: 450px;
+  height: 200px;
+  
+}
+.Vision{
+  background-color: rgb(79, 9, 231);
+  width: 450px;
+  height: 200px;
+}
+.h3{
+  width: 200px;
+  border: none;
+}
+header nav ul li a{
+    
+    text-decoration:none;
+    font-size: 20px;
+    float: inline;
+   
+}
+.logo{
+  width: 50px;
+  height: 50px;
+  border-radius: 40px;
+}
+nav img{
+  
+  border-radius: 5px;
+}
+
+.login-button{
+  background-color: rgb(35, 218, 35);
+  color: white;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin: 15px;
+  transition: opacity 0.15s;
+  transition: box-shadow:0.15;
+}
+.menu{
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: 0px;
+  display:block;
+  width: 1500px;
+  z-index: 1000;
+  transition: top 0.3s;
+  background-color: rgb(12, 145, 216);
+  
+  
+}
+ .buttons{
+  position: fixed;
+  top: 0;
+  right: 0px;
+}
+.signup-button{
+  background-color: rgb(35, 218, 35);
+  color: white;
+  height: 30px;
+  border: none;
+  border-radius: 5px;
+  margin: 15px;
+  transition: opacity 0.15s;
+  transition: box-shadow:0.15px;
+  
+}
+.signup-button:hover{
+  background-color:rgb(222, 242, 222);
+  color:rgb(0, 158, 87) ;
+  box-shadow: 8px 8px 10px rgb(23, 41, 21);
+
+}
+.signup-button:active{
+  opacity: 0.5;
+}
+.login-button:hover{
+  background-color:rgb(222, 242, 222);
+  color:rgb(0, 158, 87) ;
+  box-shadow: 8px 8px 10px rgb(23, 41, 21);
+
+}
+.login-button:active{
+ opacity: 0.5;
+}
+.button-container {
+  display: flex; /* Display buttons in a row */
+  gap: 10px; /* Space between the buttons */
+  margin-top: 10px; /* Space between description and buttons */
+  vertical-align: middle;
+}
+.whatsapp-chat{
+  width: 100px;
+  position: fixed;
+  margin-left: 1200px;
+  display: flex;
+  flex-direction: row;
+}
+.whatsapp{
+  height: 50px;
+  width: 50px;
+  border-radius: 23px;
+}
+.whatsapp:hover{
+  box-shadow: 8px 8px 10px rgb(23, 41, 21);
+  transition: opacity 0.15s;
+  transition: box-shadow:0.15px;
+}
+.whatsapp:active{
+  opacity: 0.5;
+}
+.chat{
+  width: 150px;
+  font-family: cursive;
+  font-size: 24px;
+  color: rgb(84, 223, 84);
+}
+.button:hover{
+  opacity: 0.6; 
+  box-shadow: 8px 8px 10px rgb(23, 41, 21);
+  transition: opacity 0.15s;
+  transition: box-shadow:0.15px;
+  
+}
+.buy:hover{
+ opacity: 0.6;
+ box-shadow: 8px 8px 10px rgb(23, 41, 21);
+ transition: opacity 0.15s;
+ transition: box-shadow:0.15px;
+}
+.buy:active{
+  opacity: 0.5;
+}
+.button:active{
+  opacity: 0.5;
+}
+button {
+  background-color: yellow;
+  border: none;
+  height: 30px;
+  border-radius: 10px;
+  margin: 15px;
+
+
+}
+.buy{
+
+  background-color: orange;
+  border: none;
+  height: 30px;
+  border-radius: 10px;
+  margin: 15px;
+  
+}
+.menu-tab{
+  display: inline-block;
+}
+li{
+    border-style: solid;
+    border-color: orange;
+    border-width: 2px;
+    border-radius: 5px;
+    margin-left: 0px;
+    margin-bottom: 10px;
+    padding: 15px;
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(227, 223, 214);
+    list-style-position: inside;
+    list-style-type: none;
+    vertical-align: top;
+}
+.logo{
+  display:inline-block ;
+  margin-left: 0px;
+}
+
+p {
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+  footer{
+    margin: 20px;
+    display: inline-block;
+  }
+  .footer{
+    background-color: rgba(52, 50, 50, 0.699);
+    width: 1296px;
+    height: 350px;
+    margin-left: 0px;
+    margin-top: 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    overflow-x: hidden;
+  
+    
+  }
+  .footer-line{
+    width: 3px;
+    height: 300px;
+    background-color: #ffffff;
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+  .care{
+    
+    font-family: "Grechen Fuemen", serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    margin-left: 15px;
+    width: 400px;
+  }
+  .connect{
+    font-size: 25px;
+    font-weight: bolder;
+    color: white;
+    display: inline-block;
+    margin-left: 15px;
+
+  }
+  .Subscribe{
+    background-color: rgb(200, 0, 0);
+    border-radius: 2px;
+    width: 100px;
+    height: 35px;
+    color: #f0f0f0;
+    cursor: pointer;
+    margin-left: 40px;
+  }
+  .Subscribe:hover{
+    background-color: rgb(234, 3, 3);
+    box-shadow: 8px 8px 10px rgb(23, 41, 21);
+    transition: opacity 0.15s;
+    transition: box-shadow:0.15px;
+  }
+  .Subscribe:active{
+    opacity: 0.65;
+  }
+  .footer-images{
+    padding-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    height: 50px;
+    width: 20px;
+    padding-left: 10px;
+    gap: 20px;
+    
+  }
+  .footer-content{
+    right: 0px;
+    width: 400px;
+    justify-content: center;
+  }
+  .home{
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 600,
+  'GRAD' 0,
+  'opsz' 40
+}
+.aboutus{
+  margin: 15px;
+  background-color: lightgreen;
+  padding: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  width: 600px;
+  height: 400px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  border-radius: 5px;
+}
+.aboutus img{
+  float: right;
+}
+.about-us{
+  padding-left: 40px;
+  width: 300px;
+  justify-content: center;
+}
+.cart {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
+ a:visited{
+  color: rgb(60, 211, 60);
+
+}
+a:hover{
+  color:rgb(230, 86, 110);
+}
+a:active{
+  color:red;
+}
+table,th,td{
+  height: 100%;
+  width: 100%;
+  margin: 0% auto;
+  border:  1px solid;
+}
+td,th{
+  height: 50px;
+  width: 30px;
+}
+td{
+  text-align: center;
+}
+table,tr,td{
+  border-collapse: collapse;
+}
+td:hover{
+  background-color: gray;
+}
+.table{
+  overflow-x: auto;
+  overflow-y: scroll;
+}
+tr:nth-child(even){
+  background-color:skyblue;
+ }
+
+
