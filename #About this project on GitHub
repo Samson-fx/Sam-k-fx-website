@@ -1,0 +1,29 @@
+# 🚗 Car Dealership Website
+
+A sleek and responsive car dealership-style website built with HTML, CSS, and JavaScript. This project includes a contact form with personalized submission feedback to enhance user interaction.
+
+## 🌟 Features
+
+- Clean and modern UI with responsive layout
+- Interactive contact form with smooth transitions
+- Personalized thank-you message upon form submission
+- Mobile-friendly design using media queries
+- Easily customizable and extendable for business or portfolio use
+
+## 🧰 Technologies Used
+
+- HTML5
+- CSS3 (with media queries for responsiveness)
+- Vanilla JavaScript
+
+## 📸 Demo
+
+*Coming soon: Live demo link or screenshots*
+
+## 🚀 Getting Started
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sansonbarakakyove/car-dealership-site.git
+cd car-dealership-site
